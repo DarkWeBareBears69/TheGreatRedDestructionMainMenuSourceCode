@@ -31,7 +31,7 @@ class OutdatedState extends MusicBeatState
 			\n
 			Thank you for playing the mod!",
 			32);
-		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
+		warnText.setFormat("CGF Off-Road", 40, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);
 	}
