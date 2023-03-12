@@ -25,11 +25,10 @@ class OutdatedState extends MusicBeatState
 
 		warnText = new FlxText(0, 0, FlxG.width,
 			"Hey, this build was made with the   \n
-			outdated version of Psych Engine (" + MainMenuState.psychEngineVersion + ")!\n
+			version of Psych Engine (" + MainMenuState.psychEngineVersion + ")!\n
 			\n
 			Press ENTER or ESC to proceed anyway.\n
-			\n
-			Thank you for playing the mod!",
+			Thank you for downloading the mod!",
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
