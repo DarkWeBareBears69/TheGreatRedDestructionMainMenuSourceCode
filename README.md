@@ -1,4 +1,4 @@
-If you want to try to fix this broken LUA color change bug, you can help me out by trying to compile this, but GitHub actions just mess up the build, so don't use it and I need the json that customize the mod version.
+If you want to try to fix this broken LUA color change bug, you can help me out by trying to fixing it and compile the build, but GitHub actions just mess up the build, so don't use it and I need the json that customize the mod version.
 
 # Friday Night Funkin' - Psych Engine
 Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
