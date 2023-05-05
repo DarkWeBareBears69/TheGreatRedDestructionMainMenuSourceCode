@@ -68,8 +68,8 @@
       "name": "linc_luajit",
       "type": "git",
       "dir": null,
-      "ref": "bcb4254",
-      "url": "https://github.com/nebulazorua/linc_luajit"
+      "ref": "master",
+      "url": "https://github.com/AndreiRudenko/linc_luajit"
     },
     {
       "name": "openfl",
