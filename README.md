@@ -1,6 +1,6 @@
 If you want to try to fix this broken LUA color change bug, you can help me out by trying to fixing it and compile the build, but GitHub actions just mess up the build, so don't use it and I need the json that customize the mod version. (Windows build only)
 
-![](https://user-images.githubusercontent.com/44785097/127706669-71cd5cdb-5c2a-4ecc-871b-98a276ae8070.gif](https://raw.githubusercontent.com/DarkWeBareBears69/TheGreatRedDestructionMainMenuSourceCode/main/docs/img/github%20action%20windows%20build%20of%20psych%20engine%20is%20broken.png)
+![](https://github.com/DarkWeBareBears69/TheGreatRedDestructionMainMenuSourceCode/assets/84250565/61a7690e-c0fb-4d3e-912d-51b43bd4e1b6)
 
 hmm.json fix by EliteMasterEric
 
