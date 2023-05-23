@@ -45,9 +45,11 @@
       "version": "2.5.1"
     },
     {
-      "name": "hxcpp",
-      "type": "haxelib",
-      "version": "4.3.2"
+     "name": "hxcpp",
+     "type": "git",
+     "dir": null,
+     "ref": "c3e5ab8",
+     "url": "https://github.com/HaxeFoundation/hxcpp"
     },
     {
       "name": "hxcpp-debug-server",
@@ -68,7 +70,7 @@
       "name": "linc_luajit",
       "type": "git",
       "dir": null,
-      "ref": "bcb4254",
+      "ref": "master",
       "url": "https://github.com/Sirox228/linc_luajit"
     },
     {
