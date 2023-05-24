@@ -45,6 +45,16 @@
       "version": "2.5.1"
     },
     {
+      "name": "hxcpp",
+      "type": "haxelib",
+      "version": "4.2.1"
+    },
+    {
+      "name": "hxcpp-debug-server",
+      "type": "haxelib",
+      "version": "1.2.4"
+    },
+    {
       "name": "hxjsonast",
       "type": "haxelib",
       "version": "1.1.0"
@@ -53,18 +63,6 @@
       "name": "lime",
       "type": "haxelib",
       "version": "8.0.1"
-    },
-    {
-      "name": "hxcpp",
-      "type": "git",
-      "dir": null,
-      "ref": "c3e5ab8",
-      "url": "https://github.com/HaxeFoundation/hxcpp"
-    },
-    {
-      "name": "hxcpp-debug-server",
-      "type": "haxelib",
-      "version": "1.2.4"
     },
     {
       "name": "linc_luajit",
