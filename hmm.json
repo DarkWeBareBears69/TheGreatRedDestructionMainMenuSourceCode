@@ -46,8 +46,10 @@
     },
     {
       "name": "hxcpp",
-      "type": "haxelib",
-      "version": "4.2.1"
+      "type": "git",
+      "dir": null,
+      "ref": "main",
+      "url": "https://github.com/DarkWeBareBears69/hxcpp-my-attempt-fix"
     },
     {
       "name": "hxcpp-debug-server",
