@@ -103,8 +103,8 @@ class VisualsUISubState extends BaseOptionsMenu
 			"What song do you prefer for the Pause Screen?",
 			'pauseMusic',
 			'string',
-			'Breakdown',
-			['None', 'Breakfast', 'Tea Time', 'Breakdown']);
+			'Tea Time',
+			['None', 'Breakfast', 'Tea Time']);
 		addOption(option);
 		option.onChange = onChangePauseMusic;
 		

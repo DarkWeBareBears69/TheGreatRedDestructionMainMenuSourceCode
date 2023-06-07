@@ -81,13 +81,17 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Koala Engine Team'],
+			['TheUnknownKoala4545', 'theunknownkoala', 'Creator of Koala Engine', 'https://www.youtube.com/@TheUnknownKoala4545', '0095FE'],
+			['notweuz_', 'weuz', 'Winning Icon Support', 'https://twitter.com/notweuz_', '8633F2'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],
 			['shubs',				'shubs',			'Additional Programmer of Psych Engine',						'https://twitter.com/yoshubs',			'5E99DF'],
 			[''],
 			['Former Engine Members'],
-			['bb-panzu',			'bb',				'Ex-Programmer of Psych Engine',								'https://twitter.com/bbsub3',			'3E813A'],
+			['bb-panzu',			'bb',				'Ex-Programmer of Psych Engine',								'https://twitter.com/bbpnz213',			'3E813A'],
 			[''],
 			['Engine Contributors'],
 			['iFlicky',				'flicky',			'Composer of Psync and Tea Time\nMade the Dialogue Sounds',		'https://twitter.com/flicky_i',			'9E29CF'],
