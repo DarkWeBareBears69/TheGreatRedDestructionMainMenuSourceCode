@@ -1,36 +1,37 @@
-hmm.json fix by EliteMasterEric
+![](https://trello.com/1/cards/647fe75389f2f3261c0e2158/attachments/647fe7667af1a6e6c76f8dfc/download/bruh.png)
 
-new versions by DragShot
+I need your help to fix this bug, this bug happens when you used the change character event on characters with winning icons, it didn't happen without them. You can help me out with using the pull request feature (either you're trying to fix [the engine fork used in this mod](https://github.com/DarkWeBareBears69/FNF-KoalaEngine) or the build itself)
 
-hxCodec update fix by NexIsDumb
+-----------------------
 
-# Friday Night Funkin' - Psych Engine
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+# Friday Night Funkin' - Koala Engine
+The shitty engine fork of the version 0.6.3 of the engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), due to its version 0.7.0 and above has a fully rewritten functionality.
 
 ## Installation:
-You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
+You must have [version 4.2.5 of Haxe](https://haxe.org/download/version/4.2.5/), seriously, stop using 4.1.5, it misses some stuff.
 
-Follow a Friday Night Funkin' source code compilation tutorial, after this you will need to install LuaJIT.
+open up a Command Prompt/PowerShell or Terminal, type `haxelib install hmm`
 
-To install LuaJIT do this: `haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit` on a Command prompt/PowerShell
+after it finishes, simply type `haxelib run hmm install` in order to install all the needed libraries for *Psych Engine!*
 
-...Or if you don't want your mod to be able to run .lua scripts, delete the "LUA_ALLOWED" line on Project.xml
+## Customization:
 
+if you wish to disable things like *Lua Scripts* or *Video Cutscenes*, you can read over to `Project.xml`
 
-If you get an error about StatePointer when using Lua, run `haxelib remove linc_luajit` into Command Prompt/PowerShell, then re-install linc_luajit.
+inside `Project.xml`, you will find several variables to customize Psych Engine to your liking
 
-If you want video support on your mod, simply do `haxelib install hxCodec` on a Command prompt/PowerShell
+to start you off, disabling Videos should be simple, simply Delete the line `"VIDEOS_ALLOWED"` or comment it out by wrapping the line in XML-like comments, like this `<!-- YOUR_LINE_HERE -->`
 
-otherwise, you can delete the "VIDEOS_ALLOWED" Line on Project.xml
+same goes for *Lua Scripts*, comment out or delete the line with `LUA_ALLOWED`, this and other customization options are all available within the `Project.xml` file
 
-## Credits:
+## Psych Engine Credits:
 * Shadow Mario - Programmer
 * RiverOaken - Artist
 * Yoshubs - Assistant Programmer
 
 ### Special Thanks
 * bbpanzu - Ex-Programmer
-* shubs - New Input System
+* Yoshubs - New Input System
 * SqirraRNG - Crash Handler and Base code for Chart Editor's Waveform
 * KadeDev - Fixed some cool stuff on Chart Editor and other PRs
 * iFlicky - Composer of Psync and Tea Time, also made the Dialogue Sounds
@@ -38,6 +39,10 @@ otherwise, you can delete the "VIDEOS_ALLOWED" Line on Project.xml
 * Keoiki - Note Splash Animations
 * Smokey - Sprite Atlas Support
 * Nebula the Zorua - LUA JIT Fork and some Lua reworks
+* EliteMasterEric - hmm.json fix
+* Hackx2 - Automated VersionShit
+* not-weuz - haha i took his winning icon support coding
+* dombomb64 - Multi-Sheet Characters
 _____________________________________
 
 # Features
@@ -46,11 +51,25 @@ _____________________________________
 
 ![](https://user-images.githubusercontent.com/44785097/127706669-71cd5cdb-5c2a-4ecc-871b-98a276ae8070.gif)
 
-
-## Mod Support
+## Psych Engine Mod Support
 * Probably one of the main points of this engine, you can code in .lua files outside of the source code, making your own weeks without even messing with the source!
 * Comes with a Mod Organizing/Disabling Menu.
 
+## Winning icons
+
+![](https://github.com/DarkWeBareBears69/FNF-KoalaEngine/assets/84250565/a85b5e07-2112-4901-8155-555be205fe75)
+
+(Taken from the most overused Psych fork called "OS Engine")
+
+Instead of 2 icons, there'll be three icons (losing, normal, winning). And yes, you can use double icons (without winning).
+
+## Multi-Sheet Characters
+
+![](https://github.com/DarkWeBareBears69/FNF-KoalaEngine/assets/84250565/38a9cdbc-6848-4b96-ac05-9dd7e96f0436)
+
+[Taken from dombomb64's pull request (a part of the video converted into GIF)](https://github.com/ShadowMario/FNF-PsychEngine/pull/12517)
+
+This adds a new field to the character editor that lets you reference other sprite sheets for certain animations.
 
 ## Atleast one change to every week:
 ### Week 1:
@@ -108,3 +127,6 @@ _____________________________________
 * Some stuff based on Week 7's changes has been put in (Background colors on Freeplay, Note splashes)
 * You can reset your Score on Freeplay/Story Mode by pressing Reset button.
 * You can listen to a song or adjust Scroll Speed/Damage taken/etc. on Freeplay by pressing Space.
+
+## For any planned features & bugfixes
+You can check [this Trello board](https://trello.com/b/P4dS2fIV/koala-engine) out for any planned features...
