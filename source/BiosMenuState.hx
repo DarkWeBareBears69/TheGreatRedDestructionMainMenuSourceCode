@@ -69,7 +69,15 @@ class BiosMenuState extends MusicBeatState {
 		imagePath = ["bios/week1", "bios/week2", "bios/week3"];
 
 		// DESCRIPTION HERE
-        charDesc = ["He is the rabbit and Jorunna Parva-hybrid nephew of Hoppus The Lagomercenary. First appeared on The Dimension Traveller week.", "He is the former metal singer and an assassin. First appeared on the creator's TikTok videos.", "He is the singer of the band. First appeared on the Christmas Concert! week."];
+        charDesc = ["He is the rabbit and Jorunna
+		Parva-hybrid nephew of Hoppus The Lagomercenary.
+		
+		First appeared on The Dimension Traveller week.", "He is the former metal singer
+		and an assassin.
+		
+		First appeared on the creator's TikTok videos.", "He is the singer of the band.
+		
+		First appeared on the Christmas Concert! week."];
 
 		// NAME HERE
         charName = ["Casper Hopster", "Barnabas", "Telekinesis"];
