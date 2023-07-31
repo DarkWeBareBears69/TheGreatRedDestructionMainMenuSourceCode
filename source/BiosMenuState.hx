@@ -73,12 +73,15 @@ class BiosMenuState extends MusicBeatState {
 		Parva-hybrid nephew of
 		Hoppus The Lagomercenary.
 		
-		First appeared on The Dimension Traveller week.", "He is the former metal singer
+		First appeared on The Dimension
+		Traveller week.", "He is the former metal singer
 		and an assassin.
 		
-		First appeared on the creator's TikTok videos.", "He is the singer of the band.
+		First appeared on the creator's
+		TikTok videos.", "He is the singer of the band.
 		
-		First appeared on the Christmas Concert! week."];
+		First appeared on the Christmas
+		Concert! week."];
 
 		// NAME HERE
         charName = ["Casper", "Barnabas", "Telekinesis"];
