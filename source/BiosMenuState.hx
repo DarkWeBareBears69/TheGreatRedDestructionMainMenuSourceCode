@@ -70,7 +70,8 @@ class BiosMenuState extends MusicBeatState {
 
 		// DESCRIPTION HERE
         charDesc = ["He is the rabbit and Jorunna
-		Parva-hybrid nephew of Hoppus The Lagomercenary.
+		Parva-hybrid nephew of
+		Hoppus The Lagomercenary.
 		
 		First appeared on The Dimension Traveller week.", "He is the former metal singer
 		and an assassin.
@@ -80,8 +81,7 @@ class BiosMenuState extends MusicBeatState {
 		First appeared on the Christmas Concert! week."];
 
 		// NAME HERE
-        charName = ["Casper
-		Hopster", "Barnabas", "Telekinesis"];
+        charName = ["Casper", "Barnabas", "Telekinesis"];
 
 
 		// SET UP THE FIRST IMAGE YOU WANT TO SEE WHEN ENTERING THE MENU
