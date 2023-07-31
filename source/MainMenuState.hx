@@ -251,6 +251,8 @@ class MainMenuState extends MusicBeatState
 									#end
 									case 'awards':
 										MusicBeatState.switchState(new AchievementsMenuState());
+									case 'bios':
+										MusicBeatState.switchState(new BiosMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
 									case 'options':
