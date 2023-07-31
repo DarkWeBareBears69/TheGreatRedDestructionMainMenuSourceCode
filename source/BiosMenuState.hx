@@ -80,7 +80,8 @@ class BiosMenuState extends MusicBeatState {
 		First appeared on the Christmas Concert! week."];
 
 		// NAME HERE
-        charName = ["Casper Hopster", "Barnabas", "Telekinesis"];
+        charName = ["Casper
+		Hopster", "Barnabas", "Telekinesis"];
 
 
 		// SET UP THE FIRST IMAGE YOU WANT TO SEE WHEN ENTERING THE MENU
