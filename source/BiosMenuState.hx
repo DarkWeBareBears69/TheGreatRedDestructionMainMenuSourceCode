@@ -66,17 +66,17 @@ class BiosMenuState extends MusicBeatState {
 
 		// EDIT YOU IMAGES HERE / DONT FORGET TO CREATE A FOLDER IN images CALLED bios IT SHOULD LOOK LIKE THIS 'images/bios'
 		// REMINDER!!! THE IMAGES MUST BE 518x544, IF NOT, THEY WONT FIT ON THE SCREEN!!
-		imagePath = ["bios/sample", "bios/sample", "bios/sample"];
+		imagePath = ["bios/week1", "bios/week2", "bios/week3"];
 
 		// DESCRIPTION HERE
-        charDesc = ["This is a description text.", "This is a description text.", "This is a description text."];
+        charDesc = ["He is the rabbit and Jorunna Parva-hybrid nephew of Hoppus The Lagomercenary. First appeared on The Dimension Traveller week.", "He is the former metal singer and an assassin. First appeared on the creator's TikTok videos.", "He is the singer of the band. First appeared on the Christmas Concert! week."];
 
 		// NAME HERE
-        charName = ["Sample", "Name 2", "Name 3"];
+        charName = ["Casper Hopster", "Barnabas", "Telekinesis"];
 
 
 		// SET UP THE FIRST IMAGE YOU WANT TO SEE WHEN ENTERING THE MENU
-		imageSprite = new FlxSprite(55, 99).loadGraphic(Paths.image("bios/sample"));
+		imageSprite = new FlxSprite(55, 99).loadGraphic(Paths.image("bios/week1"));
         add(imageSprite);
 
 		characterName = new FlxText(630, 94, charName[currentIndex]);
