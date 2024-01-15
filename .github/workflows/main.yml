@@ -46,6 +46,7 @@ jobs:
         with:
           name: linuxBuild
           path: 'export/release/linux/bin'
+          compression-level: 6
   buildWindows:
     runs-on: windows-latest
 
@@ -73,6 +74,7 @@ jobs:
         with:
           name: windowsBuild
           path: export/release/windows/bin
+          compression-level: 6
   buildMac:
     runs-on: macos-latest
 
@@ -99,3 +101,4 @@ jobs:
         with:
           name: macBuild
           path: export/release/macos/bin
+          compression-level: 6
