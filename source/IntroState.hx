@@ -20,7 +20,7 @@ class IntroState extends FlxState
     {
         new FlxTimer().start(1, function(guh:FlxTimer) // gives a bit delay
         {
-            startVideo('kcagamesLogo'); //put the video name here make sure the video on videos folder. you dont need to add like blabla.mp4 just blabla
+            startVideo('logos'); //put the video name here make sure the video on videos folder. you dont need to add like blabla.mp4 just blabla
         });
     }
 	
