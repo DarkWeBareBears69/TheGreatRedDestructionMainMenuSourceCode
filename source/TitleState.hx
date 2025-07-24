@@ -650,11 +650,7 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'In association \nwith';
 				// credTextShit.screenCenter();
 				case 6:
-					#if PSYCH_WATERMARKS
 					createCoolText(['Mod', 'made by'], -40);
-					#else
-					createCoolText(['Mod', 'made by'], -40);
-					#end
 				case 8:
 					addMoreText('TheUnknownKoala4545', -40);
 				// credTextShit.text += '\nNewgrounds';
