@@ -123,7 +123,7 @@ class MainMenuState extends MusicBeatState
 		}
 
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 84, 0, "FNF: The Grand Red Destruction v6.3.3", 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 84, 0, "FNF: The Grand Red Destruction v6.3.4", 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
